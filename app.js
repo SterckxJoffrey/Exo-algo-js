@@ -35,3 +35,32 @@ function tenToOne (){
 }
 
 tenToOne()
+
+function additionArray() {
+    let array = [1, 5, 12, 13];
+    let count = 0
+    for (let i = 0; i < array.length; i++) {
+        count += array[i]
+        
+    }
+    return count
+
+    
+}
+let count = additionArray()
+console.log(count);
+
+
+
+
+function reverseString() {
+    let string = 'Bonjour';
+    let reverse = '';
+    for (let i = string.length - 1; i >= 0; i--) {
+        reverse += string[i];
+    }
+    return reverse;
+}
+
+let result = reverseString();
+console.log(result);

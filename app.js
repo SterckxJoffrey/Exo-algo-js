@@ -54,7 +54,7 @@ console.log(count);
 
 
 function reverseString() {
-    let string = 'Bonjour';
+    let string = 'kayak';
     let reverse = '';
     for (let i = string.length - 1; i >= 0; i--) {
         reverse += string[i];
@@ -64,3 +64,17 @@ function reverseString() {
 
 let result = reverseString();
 console.log(result);
+
+function palindrome () {
+    let word = 'kayak'
+    if (result === word) {
+        console.log('Le mot est un palindrome');
+        
+    } else {
+        console.log("Il ne l'est pas ");
+        
+    }
+}
+
+palindrome()
+
